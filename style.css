@@ -1,116 +1,123 @@
-html
-{
-	height: 100%;
-}
 body
 {
-	margin-right: 20%;
-	margin-left: 20%;
-	margin-top: 0px;
-	border: 3px solid black;
-	height: calc(100% - 6px);
-	
-	background-image: url('background.jpg');
-	background-repeat: no-repeat;
-	/* background photo https://unsplash.com/photos/MMJx78V7xS8 */
+    background-color: burlywood;
+    margin: 0 0 0 0;
 }
-.top
+header
 {
-	height: 90px;
-	background-color: white;
+    text-align: center;
+    background-color: white;
+    border-bottom: 4px;
+    border-bottom-style: double;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 h1
 {
-	text-align: center;
-	font-size: 38px;
-	letter-spacing: 10px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: brown;
 }
 nav
 {
-	height: 58px;
-	background-color: white;
-}
-table
-{
-	width: 100%;
-}
-th
-{
-	border: 3px solid black;
-	border-collapse: collapse;
-	
-	text-align: center;
-	font-size: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-th:hover
-{
-	background-color: #59CF7F;
-	color: white;
-}
-aside
-{
-	float:left;
-	width: 47%;
-	margin-right: 2%;
-}
-img
-{
-	width: 100%;
-	border: 1px solid black;
-}
-a
-{
-	font-size: 15px;
-	font-style: italic;
-}
-.main
-{
-	padding-top: 30px;
-	padding-left: 2%;
-	padding-right: 2%;
-	
-	background-color: white;
-	height: calc(100% - 178px);
-}
-article
-{
-	float:left;
-	width: 50%;
-	padding-bottom: 20px;
-}
-h2
-{
-	font-size: 32px;
-	margin-top: 0px;
-	margin-bottom: 20px;
+    position: fixed;
+    background-color: white;
+    border: 4px;
+    border-style: double;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    width: 15%;
+
+    font-size: 22px;
 }
 h3
 {
-	font-size: 18px;
-	margin-bottom: 10px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
 }
-p
+ul
 {
-	font-size: 17px;
-	margin: 10px 0px 10px 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+li
+{
+    margin-bottom: 10px;
+    list-style-type: none;    
+}
+h2
+{
+    margin-top: 0px;
+    font-size: 27px;
+}
+#game
+{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+
+    text-align: center;
+}
+table
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+
+    border-spacing: 0px;
+	border-collapse: collapse;
+    table-layout: fixed;
+    aspect-ratio: 1/1;
+}
+table, tr, td
+{
+    border: 2px solid black;
+}
+tr
+{
+    height: 33%;
+}
+td
+{
+    padding: 10px 10px 10px 10px;
+}
+img
+{
+    width: 100%;
+}
+.selected
+{
+    font-weight: bold;
+    color: brown;
+}
+.notselected
+{
+    font-weight: normal;
+    color: black;
+}
+.line
+{
+    border: 2px solid black;
+    position: absolute;
+    display: none;
+}
+button
+{
+    font-size: 30px;
+    padding: 10px 5% 10px 5%;
 }
 footer
 {
-	clear: both;
-	position: fixed;
-    bottom: 30px;
-	text-align: right;
-	margin-top: 20px;
-	margin-bottom: 0px;
-	padding-bottom: 10px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+    margin-right: 10%;
 }
-
-
-
-
