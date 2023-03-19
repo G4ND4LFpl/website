@@ -1,0 +1,116 @@
+html
+{
+	height: 100%;
+}
+body
+{
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 0px;
+	border: 3px solid black;
+	height: calc(100% - 6px);
+	
+	background-image: url('background.jpg');
+	background-repeat: no-repeat;
+	/* background photo https://unsplash.com/photos/MMJx78V7xS8 */
+}
+.top
+{
+	height: 90px;
+	background-color: white;
+}
+h1
+{
+	text-align: center;
+	font-size: 38px;
+	letter-spacing: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+nav
+{
+	height: 58px;
+	background-color: white;
+}
+table
+{
+	width: 100%;
+}
+th
+{
+	border: 3px solid black;
+	border-collapse: collapse;
+	
+	text-align: center;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+th:hover
+{
+	background-color: #59CF7F;
+	color: white;
+}
+aside
+{
+	float:left;
+	width: 47%;
+	margin-right: 2%;
+}
+img
+{
+	width: 100%;
+	border: 1px solid black;
+}
+a
+{
+	font-size: 15px;
+	font-style: italic;
+}
+.main
+{
+	padding-top: 30px;
+	padding-left: 2%;
+	padding-right: 2%;
+	
+	background-color: white;
+	height: calc(100% - 178px);
+}
+article
+{
+	float:left;
+	width: 50%;
+	padding-bottom: 20px;
+}
+h2
+{
+	font-size: 32px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+h3
+{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+p
+{
+	font-size: 17px;
+	margin: 10px 0px 10px 0px;
+}
+footer
+{
+	clear: both;
+	position: fixed;
+    bottom: 30px;
+	text-align: right;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+
+
+
