@@ -1,0 +1,60 @@
+body
+{
+    /* top right bottom left*/
+    margin: 0 0 0 0;
+    background-color: #101010;
+
+    color: white;
+}
+
+header
+{
+    width: 60%;
+    margin: 15px 20% 15px 20%;
+    
+    color: brown;
+}
+h1
+{
+    float: none;
+    width: calc(100% - 110px);
+    margin: 0 10px 0 10px;
+
+    text-align: center;
+    font-family: 'Luminari', fantasy;
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+img.icon
+{
+    height: 55px;
+}
+nav
+{
+    padding: 10px 0 10px 0;
+    background-color: #71797E;
+}
+.navdiv
+{
+    float: left;
+    width: 23%;
+    min-height: 38;
+    margin: 0px 1% 0px 1%;
+    padding: 0px 4% 0px 4%;
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #596166;
+
+    text-align: center;
+    font-size: 27px;
+    color: brown;
+    font-weight: 800;
+}
+.navdiv:hover
+{
+    background-color: #61686d;;
+
+    font-size: 30px;
+    color: white;
+}
