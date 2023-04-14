@@ -17,7 +17,7 @@ h1 {
   font-size: 55px;
   letter-spacing: 5px;
 }
-#icon {
+.icon {
   float: left;
   flex-grow: 100;
 }
