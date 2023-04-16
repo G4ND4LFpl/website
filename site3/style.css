@@ -217,10 +217,27 @@ p {
   margin-bottom: 10px;
   font-size: 18px;
 }
+a {
+  color: #861e1e;
+  text-decoration: underline;
+}
 .textbox {
   float: left;
   width: 60%;
   margin-bottom: 20px;
+}
+.textbox .more {
+  display: block;
+  padding: 10px 10px 10px 10px;
+  background-color: #a2a4a5;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
 }
 .imagebox {
   float: left;
@@ -282,7 +299,7 @@ footer {
   max-height: calc(80vh - 67px);
 }
 .topbar {
-  background-color: brown;
+  background-color: #a2a4a5;
   height: fit-content;
   font-size: 22px;
   color: black;
