@@ -34,9 +34,10 @@ img.icon {
 /* nav */
 nav {
   padding: 10px 0 10px 0;
-  background-color: #71797E;
+  background-color: brown;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .navdiv {
   float: left;
@@ -45,20 +46,19 @@ nav {
   margin: 0px 1% 0px 1%;
   padding: 0px 4% 0px 4%;
   box-sizing: border-box;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #596166;
   text-align: center;
   font-size: 27px;
   font-family: 'Luminari', fantasy;
   letter-spacing: 2px;
-  color: brown;
+  color: #b9c2c7;
+}
+.navdiv a {
+  color: inherit;
+  text-decoration: none;
 }
 .navdiv:hover {
-  background-color: #61686d;
   font-size: 30px;
   color: white;
-  font-weight: 600;
 }
 #onhover {
   font-size: 30px;
@@ -129,7 +129,7 @@ nav {
   min-width: 50%;
   max-width: 80%;
   box-sizing: border-box;
-  padding: 20 30 20 30;
+  padding: 20px 30px 20px 30px;
   background-color: #b9c2c7;
 }
 .timeline {
@@ -137,7 +137,7 @@ nav {
   width: calc(25% * 0.8 - 40px);
   left: calc(25% * 0.05);
   top: 22%;
-  padding: 10 20 10 20;
+  padding: 10px 20px 10px 20px;
   background-color: #b9c2c7;
 }
 @media only screen and (max-width: 1600px) {
@@ -157,6 +157,9 @@ nav {
   }
   .timeline {
     position: relative;
+    width: auto;
+    padding: 10px 0px 10px 0px;
+    left: 0;
   }
 }
 @media only screen and (max-width: 800px) {
@@ -166,9 +169,12 @@ nav {
   }
   .timeline {
     position: relative;
+    width: auto;
+    padding: 10px 0px 10px 0px;
+    left: 0;
   }
 }
-/* aside */
+/* text */
 h3 {
   margin-bottom: 10px;
   font-family: 'Luminari', fantasy;
@@ -182,13 +188,12 @@ h3.center {
 }
 ul {
   list-style-type: none;
-  padding: 0 0 0 10;
+  padding: 0 0 0 10px;
 }
 p.boldp {
   font-weight: 700;
   margin-bottom: 2px;
 }
-/* text */
 h2 {
   margin-bottom: 10px;
   text-align: center;
@@ -212,6 +217,7 @@ p {
 .textbox {
   float: left;
   width: 60%;
+  margin-bottom: 20px;
 }
 .imagebox {
   float: left;
@@ -219,6 +225,26 @@ p {
   padding: 0 0 0 5%;
   font-size: 15;
   font-style: italic;
+}
+@media only screen and (max-width: 800px) {
+  .textbox {
+    width: auto;
+    float: none;
+  }
+  .imagebox {
+    float: none;
+    padding: 0 0 0 0;
+    width: 60%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .imagebox {
+    width: 80%;
+  }
+  p.addition {
+    display: none;
+  }
 }
 img {
   width: 100%;
