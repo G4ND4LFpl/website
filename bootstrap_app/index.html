@@ -6,15 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive App</title>
 
-    <link rel="style" href="node_modules/bootstrap/scss/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/js/index.umd.js" ></script>
+<body data-bs-theme="dark">
+    <script src="js/bootstrap.js" ></script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+        crossorigin="anonymous">
+    </script>
 
-    <div class="container">
-        <h1>Witaj świecie!</h1>
-        <p>Pierwsza strona Bootstrap.</p> 
+
+    <div class="container my-3">
+        <!-- Nagłówek -->
+        <header>
+        <div class="row">
+            <div class="col-xxl-4 col-md-3 col-sm-2 d-none d-sm-block">
+                <div class="icon"><img class ="icon" src="img/sword_icon_left.png" style="float: right;" alt=""></div>
+            </div>
+            <div class="col-xxl-4 col-md-6 col-sm-8">
+                <div class="titlebox">
+                    <h1>Warhammer 10k</h1>
+                </div>
+            </div>
+            <div class="col-xxl-4 col-md-3 col-sm-2 d-none d-sm-block">
+                <div class="icon"><img class ="icon" src="img/sword_icon_right.png" alt=""></div>
+            </div>
+        </div>
+        </header>
+
+        <!-- Nawigacja -->
+        <nav>
+        <div class="row">
+            Nav bar
+        </div>
+        </nav>
+
+        <!-- Treść -->
+        <article>
+        <div class="row">
+            Article
+        </div>
+        </article>
     </div>
 </body>
 </html>

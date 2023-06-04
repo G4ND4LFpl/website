@@ -1,0 +1,25 @@
+.titlebox
+{
+    text-align: center;
+
+    letter-spacing: 5px;
+    font-family: 'Luminari', fantasy;
+    color: brown;
+}
+img.icon 
+{
+    width: auto;
+    height: calc(55px + 12px);
+}
+
+h1 
+{
+    font-size: calc(1.875rem + 1.5vw);
+}
+@media (min-width: 1200px) 
+{
+    h1 
+    {
+        font-size: 3.0rem;
+    }
+}
