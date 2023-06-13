@@ -11,13 +11,13 @@
 </head>
 
 <body data-bs-theme="dark" onload="OnLoadResponse()">
-    <script src="js/bootstrap.js" ></script>
-    <!-- <script 
+    <script 
         src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
         crossorigin="anonymous">
-    </script> -->
-    <script src="js/bootstrap.bundle.js"></script>
+    </script>
+    <script src="js/bootstrap.js" ></script>
+    <!--<script src="js/bootstrap.bundle.js"></script>-->
     <script src="js/functions.js"></script>
         
     <!-- Nagłówek -->
@@ -47,13 +47,13 @@
                 <div class="dropdown menu-panel btn btn-secondary py-1">
                     <h3 class="luminari m-0 text-light" id="fractions">Frakcje</h3>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" id="fraction1">Chaos</a></li>
-                        <li><a class="dropdown-item" href="#" id="fraction2">Drenai</a></li>
-                        <li><a class="dropdown-item" href="#" id="fraction3">Federacja ludzkości</a></li>
-                        <li><a class="dropdown-item" href="#" id="fraction4">Kosmiczni marines</a></li>
-                        <li><a class="dropdown-item" href="#" id="fraction5">Mroczni eldarzy</a></li>
-                        <li><a class="dropdown-item" href="#" id="fraction6">Nekroni</a></li>
-                        <li><a class="dropdown-item" href="#" id="fraction7">Orkowie</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction1">Chaos</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction2">Drenai</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction3">Federacja ludzkości</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction4">Kosmiczni marines</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction5">Mroczni eldarzy</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction6">Nekroni</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="fraction7">Orkowie</a></li>
                     </ul>
                 </div>
             </div>
@@ -61,18 +61,35 @@
                 <div class="dropdown menu-panel btn btn-secondary py-1">
                     <h3 class="luminari m-0 text-light" id="characters">Postacie</h3>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#" id="character1">Bogowie chaosu</a></li>
-                        <li><a class="dropdown-item" href="#" id="character2">Horus</a></li>
-                        <li><a class="dropdown-item" href="#" id="character3">Imperator</a></li>
-                        <li><a class="dropdown-item" href="#" id="character4">Tyrion</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="character1">Bogowie chaosu</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="character2">Horus</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="character3">Imperator</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="character4">Tyrion</a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-6 col-sm-3">
-                <a class="nonedec" href="#"><h3 class="luminari">Pojazdy</h3></a>
+                <div class="dropdown menu-panel btn btn-secondary py-1">
+                    <h3 class="luminari m-0 text-light" id="vehicles">Pojazdy</h3>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-center" href="#" id="vehicle1">Czołg H-5</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="vehicle2">Gniew</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="vehicle3">Rycerz</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="vehicle4">Puszka bojowa</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="vehicle5">Tytan</a></li>
+                    </ul>
+                </div>
             </div>
             <div class="col-6 col-sm-3">
-                <a class="nonedec" href="#"><h3 class="luminari">Światy</h3></a>
+                <div class="dropdown menu-panel btn btn-secondary py-1">
+                    <h3 class="luminari m-0 text-light" id="worlds">Światy</h3>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-center" href="#" id="world1">Alfa Centauri</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="world2">Iron Glise</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="world4">Wolf III</a></li>
+                        <li><a class="dropdown-item text-center" href="#" id="world3">Ziemia</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
         </div>
@@ -98,13 +115,24 @@
         </div>
         <!-- Środek -->
         <div class="col-12 col-sm-6 light-bg">
+            <div class="row mt-3">
+                <div class="ms-auto fit-content">
+                    <!--<form id="lang_selection_form" action="script.php" method="get"> -->
+                    <img class ="icon2" src="img/lang icon.png">
+                    <select id='lang_selection_form' onchange="changeLang()">
+                        <option value='1'>Polski</option>
+                        <option value='2'>English</option>
+                        <option value='3'>Español</option>
+                    </select>
+                </div>
+            </div>
             <!--  Czym jest Warhammer 10k? -->
-            <div class="row">
+            <div class="row mt-3">
                 <section>
-                    <h3 class="mt-5 fw-bold luminari">Czym jest warhammer 10k?</h3>
-                    <p>Jest to wariacja znanego uniwersum <a href="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki" class="linkstyle" target="_blank">Warhammer'a 40k</a>. Pewne aspekty zostały w 
+                    <h3 class="fw-bold luminari" id="about-header">Czym jest warhammer 10k?</h3>
+                    <p id="about-p1">Jest to wariacja znanego uniwersum <a href="https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki" class="linkstyle" target="_blank">Warhammer'a 40k</a>. Pewne aspekty zostały w 
                     nim zmienione, jednak zachowuje ono klimat swego pierwowzoru.</p>
-                    <p class="d-none d-lg-block">Głównym elementem jest ludzkośc,  która próbuje wywalczyć dla siebie miejsce w niebezpiecznej galaktyce pełnej demonów, złowrogich kosmitów i pradawnych technologii. 
+                    <p class="d-none d-lg-block" id="about-p2">Głównym elementem jest ludzkośc,  która próbuje wywalczyć dla siebie miejsce w niebezpiecznej galaktyce pełnej demonów, złowrogich kosmitów i pradawnych technologii. 
                     W przeciwieństwie jednak do Warhammer'a 40k imperator nie przewodzi ludzkości i jest jedynie przeszłością poprzednich mileniów, a jego zakony kosmicznych marins są ostatnimi 
                     istniejącymi symbolami jego wizji. Natomiast teraz ludzkość jest kierowana przez skorumpowaną republikę w której liczne frakcje toczą wewnętrzne spory o wpływy.</p>
                 </section>

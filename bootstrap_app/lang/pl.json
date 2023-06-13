@@ -1,0 +1,15 @@
+{
+    "fractions":"Frakcje",
+    "fractions_items":["Chaos","Drenai","Federacja ludzkości","Kosmiczni marines","Mroczni eldarzy","Nekroni","Orkowie"],
+    "characters":"Postacie",
+    "characters_items":["Bogowie chaosu","Horus","Imperator","Tyrion"],
+    "vechicles":"Pojazdy",
+    "vechicles_items":["Czołg H-5", "Gniew", "Rycerz", "Puszka bojowa", "Tytan"],
+    "worlds":"Światy",
+    "worlds_items":["Alfa Centauri", "Iron Glise", "Wolf III", "Ziemia"],
+    "about-header":"Czym jest warhammer 10k?",
+    "about":[
+        "Jest to wariacja znanego uniwersum <a href=\"https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki\" class=\"linkstyle\" target=\"_blank\">Warhammer'a 40k</a>. Pewne aspekty zostały w nim zmienione, jednak zachowuje ono klimat swego pierwowzoru.",
+        "Głównym elementem jest ludzkośc, która próbuje wywalczyć dla siebie miejsce w niebezpiecznej galaktyce pełnej demonów, złowrogich kosmitów i pradawnych technologii. W przeciwieństwie jednak do Warhammer'a 40k imperator nie przewodzi ludzkości i jest jedynie przeszłością poprzednich mileniów, a jego zakony kosmicznych marins są ostatnimi istniejącymi symbolami jego wizji. Natomiast teraz ludzkość jest kierowana przez skorumpowaną republikę w której liczne frakcje toczą wewnętrzne spory o wpływy."
+        ]
+}

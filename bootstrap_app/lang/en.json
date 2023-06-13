@@ -1,0 +1,15 @@
+{
+    "fractions":"Fractions",
+    "fractions_items":["Chaos","Drenai","Human federation","Space marines","Dark eldars","Necrons","Orks"],
+    "characters":"Characters",
+    "characters_items":["Chaos gods","Horus","Emperor","Tyrion"],
+    "vehicles":"Vehicles",
+    "vehicles_items":["H-5 tank", "Wrath", "Knight", "Battle can", "Titan"],
+    "worlds":"Worlds",
+    "worlds_items":["Alfa Centauri", "Iron Glise", "Wolf III", "Earth"],
+    "about-header":"What is warhammer 10k?",
+    "about":[
+        "It is a variation of the known universe <a href=\"https://warhammer40k.fandom.com/wiki/Warhammer_40k_Wiki\" class=\"linkstyle\" target=\"_blank\">Warhammer 40k</a>. Some aspects have been changed in it, but it retains the climate of its original.",
+        "The main aspect of this universe is humanity, which is trying to fight for its place in a dangerous galaxy full of demons, sinister aliens and ancient technologies. However, unlike Warhammer 40k, the Emperor does not lead humanity and is merely a past of previous millennium, and his orders of space marines are the last remaining symbols of his vision. However, now humanity is led by a corrupt republic in which numerous factions have internal disputes over influence."
+        ]
+}
